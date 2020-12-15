@@ -1,140 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./assets/style.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AJ Fedie</title>
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
-    <header>
-        <div class="menu-toggler">
-            <div class="bar half start"></div>
-            <div class="bar"></div>
-            <div class=" bar half end"></div>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">AJ Fedie</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recent-work.html">Recent Work</a></li>
+                    <li><a href="contact-me.html">Contact Me</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="top-nav">
-            <ul class="nav-list">
-                <li>
-                    <a href="home" class="nav-link">Home</a>
-                </li>
-                <li>
-                    <a href="about" class="nav-link">About</a>
-                </li>
-                <li>
-                    <a href="portfolio" class="nav-link">Portfolio</a>
-                </li>
-                <li>
-                    <a href="contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="landing-text">
-            <h1>AJ Fedie</h1>
-            <h6>Full Stack Web Developer</h6>
-        </div>
-    </header>
-
-    <section class="about" id="about">
-        <div class="container">
-            <div class="profile-img">
-                <img src="./assets/images/profile-img.jpg" alt="">
-            </div>
-            <div class="about-details">
-                <div class="about-heading">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
-                </div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, voluptatem pariatur aspernatur 
-                    ut velit facere nobis deserunt, obcaecati enim deleniti aliquid, dolore voluptatibus laboriosam ad 
-                    amet harum sequi perspiciatis! Corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Facilis necessitatibus excepturi sequi blanditiis tenetur nobis qui enim molestiae iusto sunt conse
-                    ctetur, perspiciatis quasi inventore! Enim minima soluta voluptates dolores distinctio!
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Portfolio</h1>
-                <h6>Recent Work</h6>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img">
-                    <img src="./assets/images/portitem1.jpg" alt="">
-                </div>
-                <div class="portfolio-description">
-                    <h6>Web Development</h6>
-                    <h1>Running Coach Website</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, voluptatem pariatur.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, voluptatem pariatur.
-                    </p>
-                    <a href="#" class="cta">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-description">
-                    <h6>Web Design</h6>
-                    <h1>Product Layout</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, voluptatem pariatur.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, voluptatem pariatur.
-                    </p>
-                    <a href="#" class="cta">View Details</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="./assets/images/portitem2.jpg" alt="">
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img">
-                    <img src="./assets/images/portitem3.jpg" alt="">
-                </div>
-                <div class="portfolio-description">
-                    <h6>Web Design</h6>
-                    <h1>Product Sketch</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, voluptatem pariatur.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, voluptatem pariatur.
-                    </p>
-                    <a href="#" class="cta">View Details</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Contact</h1>
-                <h6>Let's work together</h6>
-            </div>
-            <form action="">
-                <label for=""name>Name:</label>
-                <input type="text" id="name" placeholder="Enter you name" required>
-                <label for=""email>Email:</label>
-                <input type="email" id="email" placeholder="Enter you email" required>
-                <label for="service">Services:</label>
-                <select name="services" id="services">
-                    <option value="">Web Design</option>
-                    <option value="">Web Dvelopment</option>
-                    <option value="">Web Design/Development</option>
-                </select>
-                <label for="subject">Subject:</label>
-                <textarea name=" id="subject" cols="10" rows="10"></textarea>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-    </section>
-    <footer class="copyright">
-        <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
-            <p>&copy; 2020 AJ Fedie</p>
-        </div>
-    </footer>
 </body>
-</html>
